@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ВТБ.Родительский контроль</string>
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Мой ребенок</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="stories">Смотреть историю платежей</string>
+    <string name="TestName">Сергей Орехов</string>
+    <string name="testCard">VISA **00</string>
+    <string name="testBalance">1000,00Р</string>
+    <string name="addChild">Добавить карту ребенка</string>
+    <string name="addCard">Добавить новую карту</string>
+</resources>
