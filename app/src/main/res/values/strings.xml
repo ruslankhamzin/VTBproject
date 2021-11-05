@@ -9,4 +9,5 @@
     <string name="testBalance">1000,00Р</string>
     <string name="addChild">Добавить карту ребенка</string>
     <string name="addCard">Добавить новую карту</string>
+    <string name="Kids">Ограничения для ребенка</string>
 </resources>
