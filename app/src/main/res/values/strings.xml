@@ -10,4 +10,7 @@
     <string name="addChild">Добавить карту ребенка</string>
     <string name="addCard">Добавить новую карту</string>
     <string name="Kids">Ограничения для ребенка</string>
+    <string name="Categoty">Категории</string>
+    <string name="places">Заведения</string>
+    <string name="add">Добавить</string>
 </resources>
