@@ -6,9 +6,9 @@
 
     <TextView
         android:id="@+id/item_number"
-        android:text="1111"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="1111"
 
         android:textAppearance="?attr/textAppearanceListItem" />
 

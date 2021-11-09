@@ -2,14 +2,13 @@ package ru.startandroid.develop.vtbproject;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import ru.startandroid.develop.vtbproject.placeholder.PlaceholderContent.PlaceholderItem;
-import ru.startandroid.develop.vtbproject.databinding.FragmentStopypayBinding;
-
 import java.util.List;
+
+import ru.startandroid.develop.vtbproject.databinding.FragmentStopypayBinding;
+import ru.startandroid.develop.vtbproject.placeholder.PlaceholderContent.PlaceholderItem;
 
 /**
  * {@link RecyclerView.Adapter} that can display a {@link PlaceholderItem}.

@@ -76,9 +76,9 @@
         android:layout_marginBottom="136dp"
         android:text="@string/addChild"
 
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="18sp"
         app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -101,8 +101,8 @@
         android:layout_height="101dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="12dp"
+        android:contentDescription="TODO"
         android:src="@drawable/ava1"
         app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="TODO" />
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
