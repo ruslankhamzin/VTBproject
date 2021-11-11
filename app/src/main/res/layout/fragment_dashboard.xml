@@ -143,8 +143,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="383dp"
-        android:layout_height="50dp"
+        android:layout_width="269dp"
+        android:layout_height="54dp"
         android:bufferType="normal"
         android:ems="10"
         android:gravity="left"
@@ -153,11 +153,23 @@
         android:text="800"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
 
+        app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.809" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
 
 </android.support.constraint.ConstraintLayout>
