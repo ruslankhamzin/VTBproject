@@ -3,6 +3,7 @@ package ru.startandroid.develop.vtbproject;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
@@ -33,6 +34,7 @@ public class MyItemRecyclerViewAdapter extends RecyclerView.Adapter<MyItemRecycl
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
         holder.mIdView.setText(mValues.get(position).shop);
+        holder.imageView.setImageResource(mValues.get(position).image);
         holder.mContentView.setText(mValues.get(position).summa);
     }
 
@@ -44,10 +46,12 @@ public class MyItemRecyclerViewAdapter extends RecyclerView.Adapter<MyItemRecycl
     public class ViewHolder extends RecyclerView.ViewHolder {
         public final TextView mIdView;
         public final TextView mContentView;
+        public final ImageView imageView;
         public PlaceholderItem mItem;
 
         public ViewHolder(FragmentStopypayBinding binding) {
             super(binding.getRoot());
+            imageView=binding.imageView7;
             mIdView = binding.itemNumber;
             mContentView = binding.content;
         }

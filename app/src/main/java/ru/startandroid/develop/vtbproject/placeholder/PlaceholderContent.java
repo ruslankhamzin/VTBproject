@@ -1,7 +1,11 @@
 package ru.startandroid.develop.vtbproject.placeholder;
 
+import android.graphics.drawable.Drawable;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import ru.startandroid.develop.vtbproject.R;
 
 /**
  * Helper class for providing sample content for user interfaces created by
@@ -20,14 +24,22 @@ public class PlaceholderContent {
     private static final int COUNT = 25;
 
     static {
-        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
-        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
-        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
-        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
-        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
-        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
-        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
-        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.ava, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.ava1, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.ava, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.ava1, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
         // Add some sample items.
 
 
@@ -42,12 +54,12 @@ public class PlaceholderContent {
      * A placeholder item representing a piece of content.
      */
     public static class PlaceholderItem {
-        public final String image;
+        public final int image;
         public final String shop;
         public final String summa;
 
 
-        public PlaceholderItem(String image, String shop, String summa) {
+        public PlaceholderItem(int image, String shop, String summa) {
             this.image = image;
             this.shop = shop;
             this.summa = summa;
