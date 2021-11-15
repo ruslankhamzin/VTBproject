@@ -1,11 +1,7 @@
 package ru.startandroid.develop.vtbproject.placeholder;
 
-import android.widget.ImageView;
-
 import java.util.ArrayList;
 import java.util.List;
-
-import ru.startandroid.develop.vtbproject.R;
 
 /**
  * Helper class for providing sample content for user interfaces created by
@@ -24,16 +20,15 @@ public class PlaceholderContent {
     private static final int COUNT = 25;
 
     static {
-        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
-        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
-        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
-        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
-        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
-        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
-        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
-        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
+        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
+        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
+        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
+        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
+        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
+        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
+        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
+        addItem(new PlaceholderItem("R.drawable.games", "Pyaterochka", "133"));
         // Add some sample items.
-
 
 
     }
@@ -41,8 +36,6 @@ public class PlaceholderContent {
     private static void addItem(PlaceholderItem item) {
         ITEMS.add(item);
     }
-
-
 
 
     /**
