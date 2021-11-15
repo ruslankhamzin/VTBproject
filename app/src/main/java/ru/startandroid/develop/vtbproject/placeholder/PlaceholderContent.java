@@ -24,14 +24,14 @@ public class PlaceholderContent {
     private static final int COUNT = 25;
 
     static {
-        addItem(new PlaceholderItem(R.drawable.games,"Pyaterochka","133"));
-        addItem(new PlaceholderItem(R.drawable.games,"Pyaterochka","133"));
-        addItem(new PlaceholderItem(R.drawable.games,"Pyaterochka","133"));
-        addItem(new PlaceholderItem(R.drawable.games,"Pyaterochka","133"));
-        addItem(new PlaceholderItem(R.drawable.games,"Pyaterochka","133"));
-        addItem(new PlaceholderItem(R.drawable.games,"Pyaterochka","133"));
-        addItem(new PlaceholderItem(R.drawable.games,"Pyaterochka","133"));
-        addItem(new PlaceholderItem(R.drawable.games,"Pyaterochka","133"));
+        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
+        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
+        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
+        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
+        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
+        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
+        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
+        addItem(new PlaceholderItem("R.drawable.games","Pyaterochka","133"));
         // Add some sample items.
 
 
@@ -49,12 +49,12 @@ public class PlaceholderContent {
      * A placeholder item representing a piece of content.
      */
     public static class PlaceholderItem {
-        public final int image;
+        public final String image;
         public final String shop;
         public final String summa;
 
 
-        public PlaceholderItem(int image, String shop, String summa) {
+        public PlaceholderItem(String image, String shop, String summa) {
             this.image = image;
             this.shop = shop;
             this.summa = summa;
