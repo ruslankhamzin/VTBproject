@@ -24,22 +24,24 @@ public class PlaceholderContent {
     private static final int COUNT = 25;
 
     static {
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.ava, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.ava1, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.ava, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.ava1, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
-        addItem(new PlaceholderItem(R.drawable.games, "Pyaterochka", "133"));
+        addItem(new PlaceholderItem(R.drawable.games, "Steam", "-133"));
+        addItem(new PlaceholderItem(R.drawable.bk, "Burger King", "-259"));
+        addItem(new PlaceholderItem(R.drawable.plus, "Пополнение", "+500"));
+        addItem(new PlaceholderItem(R.drawable.kino, "Киномакс", "-250"));
+        addItem(new PlaceholderItem(R.drawable.pyaterka, "Пятерочка", "-233"));
+        addItem(new PlaceholderItem(R.drawable.plus, "Пополнение", "+650"));
+        addItem(new PlaceholderItem(R.drawable.games, "Steam", "-133"));
+        addItem(new PlaceholderItem(R.drawable.bk, "Burger King", "-259"));
+        addItem(new PlaceholderItem(R.drawable.plus, "Пополнение", "+500"));
+        addItem(new PlaceholderItem(R.drawable.kino, "Киномакс", "-250"));
+        addItem(new PlaceholderItem(R.drawable.pyaterka, "Пятерочка", "-233"));
+        addItem(new PlaceholderItem(R.drawable.plus, "Пополнение", "+650"));
+        addItem(new PlaceholderItem(R.drawable.games, "Steam", "-133"));
+        addItem(new PlaceholderItem(R.drawable.bk, "Burger King", "-259"));
+        addItem(new PlaceholderItem(R.drawable.plus, "Пополнение", "+500"));
+        addItem(new PlaceholderItem(R.drawable.kino, "Киномакс", "-250"));
+        addItem(new PlaceholderItem(R.drawable.pyaterka, "Пятерочка", "-233"));
+        addItem(new PlaceholderItem(R.drawable.plus, "Пополнение", "+650"));
         // Add some sample items.
 
 

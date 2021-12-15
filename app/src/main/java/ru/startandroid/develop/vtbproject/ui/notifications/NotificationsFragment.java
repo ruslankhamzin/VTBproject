@@ -6,11 +6,15 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import ru.startandroid.develop.vtbproject.R;
+import ru.startandroid.develop.vtbproject.StopypayFragment;
 import ru.startandroid.develop.vtbproject.databinding.FragmentNotificationsBinding;
 
 public class NotificationsFragment extends Fragment {
@@ -25,14 +29,14 @@ public class NotificationsFragment extends Fragment {
 
         binding = FragmentNotificationsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
+        Fragment fragment = new StopypayFragment();
+        FragmentManager fn = getFragmentManager();
+        FragmentTransaction fragmentTransaction = fn.beginTransaction();
+        fragmentTransaction.replace(R.id.nav_host_fragment_activity_main, fragment);
 
-        final TextView textView = binding.textNotifications;
-        notificationsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+        fragmentTransaction.commit();
+
+
         return root;
     }
 
