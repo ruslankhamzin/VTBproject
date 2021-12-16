@@ -11,8 +11,4 @@ public class HomeViewModel extends ViewModel {
     public HomeViewModel() {
         mText = new MutableLiveData<>();
     }
-
-    public LiveData<String> getText() {
-        return mText;
-    }
 }
